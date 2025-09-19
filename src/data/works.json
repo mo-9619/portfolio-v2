@@ -1,0 +1,667 @@
+[
+  {
+    "id": "portfolio",
+    "title": "ポートフォリオサイト（当サイト）",
+    "type": "website",
+    "subtype": "Webサイト",
+    "top_text": "現在ご覧いただいているサイトです",
+    "box_btn": {
+      "website": "https://omser.conohawing.com/portfolio-v2/",
+      "source": "https://github.com/mo-9619/portfolio-v2/"
+    },
+    "main_photo": "__BASE_URL__assets/works/images/portfolio/main.png",
+    "tech_stack": [
+      "Gulp",
+      "GSAP",
+      "JavaScript",
+      "HTML(EJS)",
+      "CSS(Sass)",
+      "Git"
+    ],
+    "scope": [
+      "設計",
+      "コーディング",
+      "ビルド環境構築（Gulp）"
+    ],
+    "target_purpose": "Web制作会社や開発チームの採用担当者様へ向けて、これまでの経験を活かして制作した成果物をまとめたポートフォリオサイトを作成しました。<br>「見やすく、楽しく、そして伝わる」ことを意識しました。",
+    "point": {
+      "top_text": "ビルド環境構築からデザイン・コーディングまで対応しました。以下の点を特に工夫しています。",
+      "sub_item": [
+        {
+          "ttl": "Gulpによる効率的なビルド環境の構築",
+          "text": "HTML（EJS）、CSS（Sass）、JavaScriptのコンパイル・圧縮などを自動化しました。<br>変更のたびに即時反映されるライブリロードも導入し、開発効率を大幅に向上させました。"
+        },
+        {
+          "ttl": "JSONとEJSを組み合わせたページの自動生成",
+          "text": "作品情報は全て works.json にまとめ、テンプレート（EJS）と連携することで、各作品の静的ページを動的に生成、サイトトップの作品リストへも自動的に表示させました。<br>データを追記するだけで新規ページが出力され、保守性と再利用性の高い仕組みを実現しました。"
+        },
+        {
+          "ttl": "保守性の高いディレクトリ構成とコンポーネント設計",
+          "text": "SassやEJSの共通パーツの分割により、変更や機能追加時の影響範囲を最小限にして、開発規模が大きくなっても対応しやすい設計を意識しました。"
+        },
+        {
+          "ttl": "GSAPとScrollTriggerを活用した動きのあるUI演出",
+          "text": "スクロール位置に応じて要素がアニメーション表示される仕組みを実装しました。<br>閲覧体験を向上させるだけでなく、JavaScriptとアニメーションライブラリへの理解も深めました"
+        }
+      ]
+    },
+    "memo": [
+      {
+        "text": "works.jsonを編集すると作品の個別ページとサイトTOPの一覧へ同時に反映",
+        "box_img": {
+          "left": [
+            {
+              "src": "__BASE_URL__assets/works/images/portfolio/json/code.png",
+              "alt": "「メニュー」の編集画面"
+            }
+          ],
+          "right": [
+            {
+              "src": "__BASE_URL__assets/works/images/portfolio/json/work.png",
+              "alt": "メニュー個別ページ"
+            },
+            {
+              "src": "__BASE_URL__assets/works/images/portfolio/json/top_works.png",
+              "alt": "メニュー一覧ページ"
+            }
+          ]
+        }
+      },
+      {
+        "text": "全ページで使うバンガーメニューなどはコンポーネントにして一つのファイルで管理",
+        "box_img": {
+          "left": [
+            {
+              "src": "__BASE_URL__assets/works/images/portfolio/hamburger/code01.png",
+              "alt": "「お知らせ」の編集画面"
+            },
+            {
+              "src": "__BASE_URL__assets/works/images/portfolio/hamburger/code02.png",
+              "alt": "「お知らせ」の編集画面"
+            }
+          ],
+          "right": [
+            {
+              "src": "__BASE_URL__assets/works/images/portfolio/hamburger/menu.png",
+              "alt": "TOPページ「お知らせ」"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "omelet-rice",
+    "title": "カフェ「オムライスの森」",
+    "type": "website",
+    "subtype": "Web<br>アプリケーション",
+    "top_text": "架空のカフェ「オムライスの森」のWebサイトです。",
+    "box_btn": {
+      "website": "https://omser9696.com/",
+      "source": "https://github.com/mo-9619/omelet-rice/"
+    },
+    "main_photo": "__BASE_URL__assets/works/images/omelet-rice/main.png",
+    "tech_stack": [
+      "WordPress(CMS)",
+      "PHP",
+      "JavaScript",
+      "Git"
+    ],
+    "scope": [
+      "設計",
+      "コーディング",
+      "CMS構築"
+    ],
+    "target_purpose": "食事をする場所を探している人に向けて、お店の認知拡大と新規顧客獲得を目的としたサイトです。<br>優しく温かみのあるデザインで、店舗の雰囲気をWeb上でも感じてもらえるように制作しました。",
+    "point": {
+      "top_text": "WordPressを用いて飲食店サイトのCMS構築を行いました。店舗スタッフでも更新可能な構成を意識しつつ、デザイン・機能性の両面で工夫を加えています。",
+      "sub_item": [
+        {
+          "ttl": "柔軟なカスタムフィールドで管理できる動的コンテンツ生成",
+          "text": "Advanced Custom Fieldsの繰り返しフィールドを活用し、特徴紹介やお知らせ、アクセス情報など多彩なコンテンツを管理画面から簡単に編集・追加可能。運用効率と更新の手軽さを両立しました。"
+        },
+        {
+          "ttl": "投稿タイプを活かした商品一覧と詳細ページの構築",
+          "text": "カスタムフィールドで価格や画像、説明文を一元管理し、ループ処理でメニュー一覧を動的に生成。商品ごとの詳細ページも整ったレイアウトでわかりやすく表示し、ユーザーの利便性を向上させました。"
+        },
+        {
+          "ttl": "JavaScriptによる送信前チェックでユーザービリティ向上",
+          "text": "問い合わせフォームの必須項目をクライアント側でチェックし、入力漏れを防止。分かりやすい警告表示と送信ブロックでユーザーのストレス軽減と正確な問い合わせ受け取りを実現しました。"
+        },
+        {
+          "ttl": "動きをつけたビジュアル構成",
+          "text": "サイトに訪問した人が最初に見るTOPページには、ユーザーのスクロールに応じてコンテンツが出てくる動きをつけて、店内に入っていくような温かみとリズム感を与えるようにして、視覚的な印象強化とユーザーの滞在時間増加を図っています。"
+        }      
+      ]
+    },
+    "memo": [
+      {
+        "text": "画像・商品名・説明文・価格を入力するだけで、一覧にも詳細ページにも自動で反映されます。管理も簡単です。",
+        "box_img": {
+          "left": [
+            {
+              "src": "__BASE_URL__assets/works/images/omelet-rice/menu-edit.png",
+              "alt": "「メニュー」の編集画面"
+            }
+          ],
+          "right": [
+            {
+              "src": "__BASE_URL__assets/works/images/omelet-rice/menu-front01.png",
+              "alt": "メニュー個別ページ"
+            },
+            {
+              "src": "__BASE_URL__assets/works/images/omelet-rice/menu-front02.png",
+              "alt": "メニュー一覧ページ"
+            }
+          ]
+        }
+      },
+      {
+        "text": "日付と内容を入力するだけで、最新情報を簡単に更新できる仕組みにしています。並び替えもドラッグで可能です。<br>最新のお知らせを日付付きで一覧表示。運営からの情報をユーザーに分かりやすく届けます。",
+        "box_img": {
+          "left": [
+            {
+              "src": "__BASE_URL__assets/works/images/omelet-rice/top-news-edit.png",
+              "alt": "「お知らせ」の編集画面"
+            }
+          ],
+          "right": [
+            {
+              "src": "__BASE_URL__assets/works/images/omelet-rice/top-news-front.png",
+              "alt": "TOPページ「お知らせ」"
+            }
+          ]
+        }
+      },
+      {
+        "text": "繰り返しフィールドを使って、店舗の特徴を柔軟に追加・編集できるようにしています。<br>設定した内容が動きのあるビジュアルとともに反映され、魅力的に訴求されます。",
+        "box_img": {
+          "left": [
+            {
+              "src": "__BASE_URL__assets/works/images/omelet-rice/top-spotlight-edit.png",
+              "alt": "「店舗の特徴」の編集画面"
+            }
+          ],
+          "right": [
+            {
+              "src": "__BASE_URL__assets/works/images/omelet-rice/top-spotlight-front.png",
+              "alt": "「店舗の特徴」ページ"
+            }
+          ]
+        }
+      },
+      {
+        "text": "メインコンテンツもサブコンテンツも、階層構造で柔軟に管理できるように設計しました。画像・見出し・説明文もすべて編集可能です。<br>見出しごとにセクションが分かれており、写真付きで店舗の特徴を丁寧に紹介しています。上部の目次リンクで目的の情報にすぐアクセスできます。",
+        "box_img": {
+          "left": [
+            {
+              "src": "__BASE_URL__assets/works/images/omelet-rice/about-edit.png",
+              "alt": "「店舗紹介」の編集画面"
+            }
+          ],
+          "right": [
+            {
+              "src": "__BASE_URL__assets/works/images/omelet-rice/about-front.png",
+              "alt": "「店舗紹介」ページ"
+            }
+          ]
+        }
+      },
+      {
+        "text": "所在地・地図・交通手段はすべてカスタムフィールドで管理されており、更新作業も簡単です。<br>住所・地図・交通案内が見やすく整理されており、ユーザーが迷わず店舗にアクセスできる設計にしています。",
+        "box_img": {
+          "left": [
+            {
+              "src": "__BASE_URL__assets/works/images/omelet-rice/access-edit.png",
+              "alt": "「アクセス方法」の編集画面"
+            }
+          ],
+          "right": [
+            {
+              "src": "__BASE_URL__assets/works/images/omelet-rice/access-front.png",
+              "alt": "「アクセス方法」ページ"
+            }
+          ]
+        }
+      },
+      {
+        "text": "お問い合わせフォームでは、必須項目の未入力時にJavaScriptによって送信をブロックし、エラーメッセージを表示することでユーザーの入力漏れを防ぎます。",
+        "box_img": {
+          "left": [
+            {
+              "src": "__BASE_URL__assets/works/images/omelet-rice/contact-code.png",
+              "alt": "エラーメッセージを表示するJS"
+            }
+          ],
+          "right": [
+            {
+              "src": "__BASE_URL__assets/works/images/omelet-rice/contact-front.png",
+              "alt": "お問い合わせフォーム（エラー画面）"
+            }
+          ]
+        }
+      },
+      {
+        "text": "お問い合わせフォームからお問い合わせ内容を送信するとサンクスページに遷移して、送信された内容はサイト管理者とお問い合わせいただいたユーザーの両方にメールで自動送信される仕組みになっています。",
+        "box_img": {
+          "left": [
+            {
+              "src": "__BASE_URL__assets/works/images/omelet-rice/contact02-front.png",
+              "alt": "サンクスページ"
+            }
+          ],
+          "right": [
+            {
+              "src": "__BASE_URL__assets/works/images/omelet-rice/contact02-mail01.png",
+              "alt": "サイト管理者へのメール"
+            },
+            {
+              "src": "__BASE_URL__assets/works/images/omelet-rice/contact02-mail02.jpg",
+              "alt": "ユーザーへのメール"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "closetta",
+    "title": "洋服通販サイト「CLOSETTA」（架空）",
+    "type": "website",
+    "subtype": "Web<br>アプリケーション",
+    "top_text": "架空の洋服通販サイトです。",
+    "box_btn": {
+      "website": "https://closetta.vercel.app/",
+      "source": "https://github.com/mo-9619/closetta/"
+    },
+    "main_photo": "__BASE_URL__assets/works/images/closetta/main.png",
+    "tech_stack": [
+      "React",
+      "JavaScript （TypeScript）",
+      "HTML・CSS",
+      "Git",
+      "Vercel"
+    ],
+    "scope": [
+      "設計",
+      "コーディング"
+    ],
+    "target_purpose": "上品さや落ち着きを求めつつも、トレンドを意識したファッションに関心がある層である20代後半〜30代の女性をターゲットとした総合ファッション通販サイトです。<br>“スタイリッシュ × ナチュラル”をコンセプトに、視覚的にも操作性にも配慮しました。",
+    "point": {
+      "top_text": "React + TypeScriptでファッション通販サイトを制作しました。以下の点を特に工夫しています。",
+      "sub_item": [
+        {
+          "ttl": "商品ページのルーティング設計",
+          "text": "React Router を用いて、商品一覧・詳細・カート・注文完了ページへの遷移を実装。<br>URLパラメータを活用して、商品IDから動的に詳細情報を表示できる構成にしています。"
+        },
+        {
+          "ttl": "カート機能のグローバル管理",
+          "text": "React Context を使ってカートの状態（商品情報や数量など）を全体で共有。<br>追加・削除・リセットなどのロジックをContext内にまとめて、各ページから操作できるようにしました。"
+        },
+        {
+          "ttl": "Firebaseを使ったユーザー情報の保存",
+          "text": "Firebase Authenticationでユーザーを認証し、注文時にFirestoreを使用してユーザーデータ（お届け先やお支払い方法）を保存するようになっています。<br>次回からの入力を省略できるようにして、ユーザーの利便性を向上させました。"
+        },
+        {
+          "ttl": "styled-componentsによるUI設計",
+          "text": "styled-componentsで各パーツをコンポーネント単位に分離。<br>配色やタイポグラフィ、余白などを整え、ECサイトらしい清潔感ある見た目に仕上げました。"
+        }
+      ]
+    },
+    "memo": [
+      {
+        "text": "画像・商品名・価格などの商品情報をJSONで一元管理し、一覧ページ・詳細ページの両方に反映させました。",
+        "box_img": {
+          "left": [
+            {
+              "src": "__BASE_URL__assets/works/images/closetta/json_code.png",
+              "alt": "「メニュー」の編集画面"
+            }
+          ],
+          "right": [
+            {
+              "src": "__BASE_URL__assets/works/images/closetta/json_front01.png",
+              "alt": "メニュー個別ページ"
+            },
+            {
+              "src": "__BASE_URL__assets/works/images/closetta/json_front02.png",
+              "alt": "メニュー一覧ページ"
+            }
+          ]
+        }
+      },
+      {
+        "text": "ユーザー認証にはFirebaseを使用し、ログイン後はヘッダーに登録済みのメールアドレスが表示されるようにしました。",
+        "box_img": {
+          "left": [
+            {
+              "src": "__BASE_URL__assets/works/images/closetta/login_code01.png",
+              "alt": "「メニュー」の編集画面"
+            },
+            {
+              "src": "__BASE_URL__assets/works/images/closetta/login_code02.png",
+              "alt": "「メニュー」の編集画面"
+            }
+          ],
+          "right": [
+            {
+              "src": "__BASE_URL__assets/works/images/closetta/login_front01.png",
+              "alt": "メニュー個別ページ"
+            },
+            {
+              "src": "__BASE_URL__assets/works/images/closetta/login_front02.png",
+              "alt": "メニュー一覧ページ"
+            }
+          ]
+        }
+      },
+      {
+        "text": "React Context を使ってカートの状態（商品情報や数量など）をグローバル State として管理しました。<br>カートに商品を追加すると、ヘッダーのカートアイコンに現在の数量を示すバッジが表示され、カートページには追加した商品が一覧で表示されるようにしています。",
+        "box_img": {
+          "left": [
+            {
+              "src": "__BASE_URL__assets/works/images/closetta/cart_code.png",
+              "alt": "「メニュー」の編集画面"
+            }
+          ],
+          "right": [
+            {
+              "src": "__BASE_URL__assets/works/images/closetta/cart_front.png",
+              "alt": "メニュー個別ページ"
+            }
+          ]
+        }
+      },
+      {
+        "text": "FirebaseのFirestoreを使用して、ユーザーのお届け先やお支払い方法などの情報を保存できるようにしました。<br>2回目以降の注文では、前回の情報をもとに入力画面をスキップして直接確認画面へ遷移し、ユーザーの手間を軽減しています。また、『変更』ボタンから入力画面に移動した場合は、前回入力した内容があらかじめ反映された状態で表示され、必要に応じて修正できるようにすることで、利便性を向上させました。",
+        "box_img": {
+          "left": [
+            {
+              "src": "__BASE_URL__assets/works/images/closetta/firestore_code01.png",
+              "alt": "「メニュー」の編集画面"
+            },
+            {
+              "src": "__BASE_URL__assets/works/images/closetta/firestore_code02.png",
+              "alt": "「メニュー」の編集画面"
+            }
+          ],
+          "right": [
+            {
+              "src": "__BASE_URL__assets/works/images/closetta/firestore_front01.png",
+              "alt": "メニュー個別ページ"
+            },
+            {
+              "src": "__BASE_URL__assets/works/images/closetta/firestore_front02.png",
+              "alt": "メニュー一覧ページ"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "kobayashi",
+    "title": "総合病院「小林病院」（架空）",
+    "type": "website",
+    "subtype": "Webサイト",
+    "top_text": "架空の総合病院のWebサイトです。",
+    "box_btn": {
+      "website": "https://omser.conohawing.com/kobayashi/",
+      "source": "https://github.com/mo-9619/kobayashi/"
+    },
+    "main_photo": "__BASE_URL__assets/works/images/kobayashi/main.png",
+    "tech_stack": [
+      "Gulp",
+      "JavaScript",
+      "HTML(EJS)",
+      "CSS(Sass)",
+      "Git"
+    ],
+    "scope": [
+      "設計",
+      "コーディング",
+      "ビルド環境構築（Gulp）"
+    ],
+    "target_purpose": "総合病院なので幅広い年齢層の方々がターゲットとなるため、どんな人でも使いやすく分かりやすい信頼と安心感を感じるようなサイトを目指しました。",
+    "point": {
+      "top_text": "以下の点を特に工夫しています。",
+      "sub_item": [
+        {
+          "ttl": "共通コンポーネント化による保守性向上",
+          "text": "メタ情報, ヘッダー, フッター, パンくずリストなどのセクションをEJSのコンポーネントとして分割しているため、デザインの一貫性を保ちつつ、メンテナンス性が高い構造になっています。"
+        },
+        {
+          "ttl": "保守性と拡張性を意識したお知らせ一覧の実装",
+          "text": "複数のお知らせを効率的に管理・表示するため、テンプレートエンジンを用いた繰り返し処理を活用し、コードの簡潔化とメンテナンス性の向上を図りました。<br>お知らせデータは配列で定義し、それをループ処理でHTMLに展開することで、件数の増減や内容の変更にも柔軟に対応可能です。"
+        },
+        {
+          "ttl": "保守性を意識したCSS設計で崩れにくいレイアウトを実現",
+          "text": "コンテンツの増減にも柔軟に対応できるCSS設計を意識し、レイアウト崩れを防ぐことで保守性の高い実装を心がけました。"
+        },
+        {
+          "ttl": "高齢者・弱視ユーザーへの配慮設計",
+          "text": "視力の弱い人や高齢者にも配慮し、JavaScriptを使って文字サイズを動的に変更できるボタンを実装しました。CSSのrem単位をベースに設計することで、全体のレイアウト崩れを防ぎつつ、ユーザーが視認性を調整できるようにしました。"
+        }
+      ]
+    },
+    "memo": [
+      {
+        "text": "全ページ共通の&lt;head&gt;タグをテンプレート化することで、保守性を向上させました。<br>各ページ固有のCSS・JSやtitle・descriptionなどは、個別に設定・出力できる構成にしており、共通部分とページごとの差分を明確に管理できる設計にしています。",
+        "box_img": {
+          "left": [
+            {
+              "src": "__BASE_URL__assets/works/images/kobayashi/head_code01.png",
+              "alt": "「メニュー」の編集画面"
+            },
+            {
+              "src": "__BASE_URL__assets/works/images/kobayashi/head_code02.png",
+              "alt": "「メニュー」の編集画面"
+            }
+          ],
+          "right": [
+            {
+              "src": "__BASE_URL__assets/works/images/kobayashi/head_dist.png",
+              "alt": "メニュー個別ページ"
+            }
+          ]
+        }
+      },
+      {
+        "text": "EJSのJSを埋め込める仕組みを活用して、お知らせのコンテンツは繰り返し処理で出力しています。デザインの変更や調整の時間短縮を実現させました。",
+        "box_img": {
+          "left": [
+            {
+              "src": "__BASE_URL__assets/works/images/kobayashi/news_code01.png",
+              "alt": "「メニュー」の編集画面"
+            },
+            {
+              "src": "__BASE_URL__assets/works/images/kobayashi/news_code02.png",
+              "alt": "「メニュー」の編集画面"
+            }
+          ],
+          "right": [
+            {
+              "src": "__BASE_URL__assets/works/images/kobayashi/news_front.png",
+              "alt": "メニュー個別ページ"
+            }
+          ]
+        }
+      },
+      {
+        "text": "更新や修正で文章量が増えた場合も、レイアウトが崩れない設計になるように意識してコーディングしました。",
+        "box_img": {
+          "left": [
+            {
+              "src": "__BASE_URL__assets/works/images/kobayashi/time_before.png",
+              "alt": "「メニュー」の編集画面"
+            }
+          ],
+          "right": [
+            {
+              "src": "__BASE_URL__assets/works/images/kobayashi/time_after.png",
+              "alt": "メニュー個別ページ"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "wanko-awase",
+    "title": "ゲームアプリ「わんこあわせ」",
+    "type": "website",
+    "subtype": "Web<br>アプリケーション",
+    "top_text": "カードをめくって同じ犬の写真を合わせる神経衰弱ゲームアプリです。",
+    "box_btn": {
+      "website": "https://wanko-awase.vercel.app/",
+      "source": "https://github.com/mo-9619/wanko-awase/"
+    },
+    "main_photo": "__BASE_URL__assets/works/images/wanko-awase/main.png",
+    "tech_stack": [
+      "React",
+      "JavaScript（TypeScript）",
+      "HTML・CSS",
+      "Git",
+      "Vercel"
+    ],
+    "scope": [
+      "設計",
+      "コーディング"
+    ],
+    "target_purpose": "犬好きな家族に楽しんでもらいたくて、愛犬の写真を使った記憶ゲームを制作しました。<br>身近な人が笑顔になるような、親しみやすく遊びやすいアプリを目指しました。",
+    "point": {
+      "top_text": "React＋TypeScriptで制作しました。以下の点を特に工夫しています。",
+      "sub_item": [
+        {
+          "ttl": "状態管理の整理",
+          "text": "カードの状態、レベル、タイマーなど、役割ごとに useState を分けて管理しています。<br>関連するstateはオブジェクトとして一つにまとめることで読みやすく保守性の高い構成にしました。"
+        },
+        {
+          "ttl": "タイマーの精度向上",
+          "text": "0.01秒単位のタイマーを setInterval で実装。浮動小数点誤差を抑えるため Math.round と .toFixed(2) を併用して安定した表示を実現しました。"
+        },
+        {
+          "ttl": "ゲーム性とUXへの配慮",
+          "text": "難易度によってカード数が変わり、プレイの幅が広がる設計。操作のタイミングやアニメーションも自然になるよう微調整しています。"
+        },
+        {
+          "ttl": "styled-componentsで動的な見た目に",
+          "text": "カードをひっくり返したり、全て正解した時などの状態に応じて見た目を切り替え、ReactのPropsとスタイルが連動するよう工夫しました。"
+        }
+      ]
+    },
+    "memo": [
+      {
+        "text": "カードの状態に関する情報（カードの組数・シャッフル結果・最初にめくったカード・現在表になっているカード・クリア済みのカード）を、オブジェクトとして一括で管理することで、状態管理を簡潔にし、可読性と保守性を高めました。",
+        "box_img": {
+          "left": [
+            {
+              "src": "__BASE_URL__assets/works/images/wanko-awase/card-state.png",
+              "alt": "カードの状態管理"
+            }
+          ],
+          "right": []
+        }
+        
+      },
+      {
+        "text": "難易度（easy / normal / hard）の選択に応じてカードのペア数（3〜5セット）が変化するように状態を管理し、初心者から上級者まで幅広く楽しめる構成としました。",
+        "box_img": {
+          "left": [
+            {
+              "src": "__BASE_URL__assets/works/images/wanko-awase/level_code.png",
+              "alt": "難易度によってカードのセット数を振り分けるコード"
+            }
+          ],
+          "right": [
+            {
+              "src": "__BASE_URL__assets/works/images/wanko-awase/level_front01.png",
+              "alt": "「易しい」レベルのゲーム画面"
+            },
+            {
+              "src": "__BASE_URL__assets/works/images/wanko-awase/level_front02.png",
+              "alt": "「難しい」レベルのゲーム画面"
+            }
+          ]
+        }
+        
+      }
+    ]
+  },
+  {
+    "id": "piano",
+    "title": "「白石ピアノ教室」（架空）",
+    "type": "banner",
+    "subtype": "バナー",
+    "top_text": "架空のピアノ教室の宣伝バナーです。",
+    "main_photo": "__BASE_URL__assets/works/images/piano.jpg",
+    "tech_stack": [
+      "Photoshop",
+      "Illustrator"
+    ],
+    "scope": [
+      "デザイン"
+    ],
+    "target_purpose": "習い事を始めたい3〜10歳くらいの子供、両親をターゲットとして、「小さい子供が好きそうな楽しくて明るくポップなデザイン」というご要望をいただいたことを想定して制作しました。",
+    "point": {
+      "top_text": "賑やかで楽しそうなイメージを持ってもらえるよう、キャッチコピーは2種類のフォントと色を組み合わせたり、笑顔でピアノを弾いている女の子の写真を選びました。色合いも子供に好まれるような明るい色を使用しました。"
+    }
+  },
+  {
+    "id": "fashion",
+    "title": "ファッション通販サイト「FASHION SHOP」（架空）",
+    "type": "banner",
+    "subtype": "バナー",
+    "top_text": "架空のファッション通販サイトのセール企画バナーです。",
+    "main_photo": "__BASE_URL__assets/works/images/fashion.jpg",
+    "tech_stack": [
+      "Photoshop",
+      "Illustrator"
+    ],
+    "scope": [
+      "デザイン"
+    ],
+    "target_purpose": "20〜30代の女性をターゲットとして、「洗練されたオシャレなイメージ」という要望をいただいたことを想定して制作しました。",
+    "point": {
+      "top_text": "装飾をシンプルにしたり、背の高いフォントを使用することで洗練されたオシャレな印象を表現しました。実際に他のバナーと並べ比較し、その中でも目立つように色合いを調整しました。"
+    }
+  },
+  {
+    "id": "headphone",
+    "title": "音響機器メーカー（架空）",
+    "type": "banner",
+    "subtype": "バナー",
+    "top_text": "架空の音響機器メーカーのヘッドホンのバナーです。",
+    "main_photo": "__BASE_URL__assets/works/images/headphone.jpg",
+    "tech_stack": [
+      "Photoshop",
+      "Illustrator"
+    ],
+    "scope": [
+      "デザイン"
+    ],
+    "target_purpose": "臨場感あるヘッドホンが欲しい人をターゲットとして、「商品のワイヤレスヘッドホンの売りである迫力ある音質をアピールしたい」という要望をいただいたことを想定して制作しました。",
+    "point": {
+      "top_text": "迫力ある音質であることが伝わるように、フォントを斜体にして動きを出し、「迫力音質」とブロックのように配置してインパクトを出しました。"
+    }
+  },
+  {
+    "id": "milky",
+    "title": "カフェ「Milky Cafe」（架空）",
+    "type": "banner",
+    "subtype": "バナー",
+    "top_text": "架空のカフェ「Milky Cafe」の期間限定商品のバナーです。",
+    "main_photo": "__BASE_URL__assets/works/images/milky.jpg",
+    "tech_stack": [
+      "Photoshop",
+      "Illustrator"
+    ],
+    "scope": [
+      "デザイン"
+    ],
+    "target_purpose": "女性をターゲットとして、「明るく軽やかで華やかな印象。商品の「桜ミルクティー」の「桜」のイメージを前面に出して欲しい。」という要望をいただいたことを想定して制作しました。",
+    "point": {
+      "top_text": "華やかな印象になるようなフォントを選び、加工して軽やかな雰囲気を加わえました。また、女性に好まれるような可愛らしく華やかな装飾や色を使用しました。商品の写真は美味しそうにみえるよう、大きめに載せました。"
+    }
+  }
+]
