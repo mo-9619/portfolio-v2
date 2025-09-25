@@ -624,6 +624,25 @@
     }
   },
   {
+    "id": "dental_special",
+    "title": "某大手美容歯科",
+    "type": "banner",
+    "subtype": "バナー",
+    "top_text": "某大手美容歯科 サテライトサイトの特集記事にリンクするバナーを制作しました",
+    "main_photo": "__BASE_URL__assets/works/images/dental_special/bnr.png",
+    "tech_stack": [
+      "Photoshop",
+      "Illustrator"
+    ],
+    "scope": [
+      "デザイン"
+    ],
+    "target_purpose": "仙台でマウスピース矯正を検討している方をターゲットとして制作しました。",
+    "point": {
+      "top_text": "「口元の突出感が気になる」「費用を抑えたい」など、マウスピース矯正を検討している方が考えがちなお悩みを羅列して載せることで、ターゲットの目に留まるようにしました。<br>また、文字の大きさ・色味も調整して、他のバナーと並んだ際も際立つデザインにしました。"
+    }
+  },
+  {
     "id": "piano",
     "title": "「白石ピアノ教室」（架空）",
     "type": "banner",
