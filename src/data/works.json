@@ -589,6 +589,41 @@
     ]
   },
   {
+    "id": "sala",
+    "title": "美容院「SALA」",
+    "type": "website",
+    "subtype": "Webサイト",
+    "top_text": "仮想の美容院「SALA」のWebサイトです。",
+    "box_btn": {
+      "website": "https://omser.conohawing.com/sala/",
+      "source": "https://github.com/mo-9619/sala/"
+    },
+    "main_photo": "__BASE_URL__assets/works/images/sala/main.png",
+    "tech_stack": [
+      "JavaScript",
+      "HTML・CSS",
+      "Photoshop"
+    ],
+    "scope": [
+      "デザイン",
+      "コーディング"
+    ],
+    "target_purpose": "20〜40代の男女をターゲットに新規顧客の獲得とリピートユーザーの再訪全体を目的としたサイトを制作しました。白黒でシンプルでクールにまとめたデザインで制作しました。",
+    "point": {
+      "top_text": "以下の点を特に工夫しています。",
+      "sub_item": [
+        {
+          "ttl": "固定予約ボタンによるコンバージョン率の向上",
+          "text": "予約ボタンを右下に固定して、ユーザーがページ内のどこにいてもすぐに予約へアクセスできるようにし、ユーザビリティを高めることでコンバージョン率の向上を狙いました。"
+        },
+        {
+          "ttl": "長期的なサイト運用を意識",
+          "text": "CSSの記述については、各コンテンツごとに明確なコメントを付けてセクションを分けることで、チームでの共同開発や将来的な修正にも対応しやすい、保守性の高いコード設計を意識しました。"
+        }
+      ]
+    }
+  },
+  {
     "id": "piano",
     "title": "「白石ピアノ教室」（架空）",
     "type": "banner",
